@@ -2,7 +2,7 @@ body{
 	margin: 0;
 	padding: 0;
 	height: auto;
-    background: black;
+    
 }
 .container{
 	margin: inherit;
@@ -49,10 +49,83 @@ body{
 }
 .fourth-text{
     text-align: center;
-    color: white;
+    color: black;
     font-weight: 200;
 }
 .section4{
     background: whitesmoke;
     height:auto;
+}
+#icons img{
+    margin-left: 20%;
+    margin-top: 2%;
+    float: left;
+    
+}
+#icons{
+    width: 100%;
+}
+#images1 ,#images2{
+    float: left;
+    margin-left: 15%;
+    width: 70%;
+}
+#images1 img,#images2 img{
+    width: 200px;
+    height: 200px;
+    margin-left: 10px;
+    /* margin-top: 5%; */
+}
+#images2{
+    margin-top: 2%;
+}
+#images1{
+    margin-top: 2%;
+}
+.row h1{
+    float: center;
+    text-align: center;
+    margin-top: 2%;
+}
+.contacts {
+    
+    height: 700px;
+}
+.contacts h1{
+    float: center;
+    text-align: center;
+    line-height: 80px;
+}
+.l1,.l2{
+    border: 1px solid black;
+    width: 350px;
+}
+.l1{
+    margin-left: 250px;
+}
+.l2{
+    margin-left: 50px;
+}
+.l3{
+    margin-left: 24%;
+    margin-top: 3%;
+    border: 1px solid black;
+    width: 56%;
+    height: 40%;
+}
+.bottom1 i{
+    font-size: 30px;
+    border-radius: 10px;
+    width: 50px;
+}
+.bottom1{
+    margin-top: 30px;
+    text-align: center;
+    background-color: white;
+    height: 100px;
+    
+}
+.bottom1 p{
+    line-height: 10px;
+
 }
