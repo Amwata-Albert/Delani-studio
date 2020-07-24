@@ -8,17 +8,26 @@ $(document).ready(function(){
     $('.toggle3').click(function(){
         $('.toggle3').toggle();
     });
+    // $("#images1").hover(function(){
+    //     $(".port1").css({
+    //         opacity:0.1
+    //     });$('.text2').css(
+    //         "background-color", "red"
+    //     )
+    // },function(){
+    //     $(".port1").css({
+    //         opacity:0.1
+    //     });
+    // });
     $(".port1").hover(function(){
-        $(".port1").css({
-            opacity:0.1
-        });$('.text2').css({
-            
-        })
+        $(".port1").css("opacity","0.1");
+        $('.text2').fadeIn();
     },function(){
-        $(".port1").css({
-            opacity:1
-        });
+        $(".port1").css("opacity","1");
+        $(".text2").fadeOut();
     });
+
+
 });
 
 // $(document).ready(function(){

@@ -65,12 +65,12 @@ body{
 #icons{
     width: 100%;
 }
-#images1 ,#images2{
+#images2{
     float: left;
     margin-left: 15%;
     width: 70%;
 }
-#images1 img,#images2 img{
+#images2 img{
     width: 200px;
     height: 200px;
     margin-left: 10px;
@@ -79,9 +79,7 @@ body{
 #images2{
     margin-top: 2%;
 }
-#images1{
-    margin-top: 2%;
-}
+
 .row h1{
     float: center;
     text-align: center;
@@ -129,37 +127,11 @@ body{
     line-height: 10px;
 
 }
-.images1{
+.images2{
     position: relative;
-     width: 50%;
-}
-.port1{
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: .5s ease;
-    backface-visibility: hidden;
-}
-.text11{
-    transition: .5s ease;
-    opacity: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    text-align: center;
-}
-.images1:hover .port1{
-    opacity: 0.3;
-}
-.images1:hover .text11{
-    opacity: 2;
 }
 .text2{
-    background-color: yellow;
-    color: black;
-    font-size: 40px;
-    padding: 16px 32px;
-}
+    position: absolute;
+    left: 20%;
+  
+} 
