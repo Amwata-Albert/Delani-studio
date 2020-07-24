@@ -28,22 +28,64 @@ $(document).ready(function(){
     });
 
 
+    $(".port2").hover(function(){
+        $(".port2").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port2").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+
+
+    $(".port3").hover(function(){
+        $(".port3").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port3").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+
+
+    $(".port4").hover(function(){
+        $(".port4").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port4").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+
+
+    $(".port5").hover(function(){
+        $(".port5").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port5").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+
+    $(".port6").hover(function(){
+        $(".port6").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port6").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+
+    $(".port7").hover(function(){
+        $(".port7").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port7").css("opacity","1");
+        $(".text2").fadeOut();
+    });
+    
+
+    $(".port8").hover(function(){
+        $(".port8").css("opacity","0.1");
+        $('.text2').fadeIn();
+    },function(){
+        $(".port8").css("opacity","1");
+        $(".text2").fadeOut();
+    });
 });
 
-// $(document).ready(function(){
-   
-// });
-// $(document).ready(function(){
-    
-// });
-// $(document).ready(fu(){
-   
-// $(document).ready(function() {
-
-//     $('.gallery-item').hover(function() {
-//       $(this).find('.img-title').fadeIn(300);
-//     }, function() {
-//       $(this).find('.img-title').fadeOut(100);
-//     });
-
-//   });
