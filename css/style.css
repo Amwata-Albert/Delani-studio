@@ -130,6 +130,54 @@ body{
 
 .text2{
     position: absolute;
-    left: 20%;
+    left: 20%; 
+   color: red;
+} 
+
+.text3{
+    position: absolute;
+   left: 35%;
+   color: red;
+   top:250% ;
+  
+}  
+
+.text4{ 
+    position: absolute;
+    left: 50%;
+    top: 240%; 
+    color:red;
+}
+.text5{
+    position: absolute;
+    left: 65%;
+    top: 240%;
+    color: red;
   
 } 
+.text6{
+    position: absolute;
+     left: 10%; 
+    color: red;
+  
+} 
+.text7{
+    position: absolute;
+     left: 30%;
+    top: 0%;
+   color: red;
+} 
+.text8{
+    position: absolute;
+     left: 55%;
+    top: 0%; 
+    color: red;
+  
+} 
+.text9{
+    position: absolute;
+    left: 80%;
+    top: 0%; 
+    color:red;
+  
+}  
