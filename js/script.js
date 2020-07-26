@@ -1,74 +1,3 @@
-$(document).ready(function(){
-
-    $(".port1").hover(function(){
-        $(".port1").css("opacity","0.1");
-        $('.text2').fadeIn();
-    },function(){
-        $(".port1").css("opacity","1");
-        $(".text2").fadeOut();
-    });
-
-
-    $(".port2").hover(function(){
-        $(".port2").css("opacity","0.1");
-        $('.text3').fadeIn();
-    },function(){
-        $(".port2").css("opacity","1");
-        $(".text3").fadeOut();
-    });
-
-
-    $(".port3").hover(function(){
-        $(".port3").css("opacity","0.1");
-        $('.text4').fadeIn();
-    },function(){
-        $(".port3").css("opacity","1");
-        $(".text4").fadeOut();
-    });
-
-
-    $(".port4").hover(function(){
-        $(".port4").css("opacity","0.1");
-        $('.text5').fadeIn();
-    },function(){
-        $(".port4").css("opacity","1");
-        $(".text5").fadeOut();
-    });
-
-
-    $(".port5").hover(function(){
-        $(".port5").css("opacity","0.1");
-        $('.text6').fadeIn();
-    },function(){
-        $(".port5").css("opacity","1");
-        $(".text6").fadeOut();
-    });
-
-    $(".port6").hover(function(){
-        $(".port6").css("opacity","0.1");
-        $('.text7').fadeIn();
-    },function(){
-        $(".port6").css("opacity","1");
-        $(".text7").fadeOut();
-    });
-
-    $(".port7").hover(function(){
-        $(".port7").css("opacity","0.1");
-        $('.text8').fadeIn();
-    },function(){
-        $(".port7").css("opacity","1");
-        $(".text8").fadeOut();
-    });
-    
-
-    $(".port8").hover(function(){
-        $(".port8").css("opacity","0.1");
-        $('.text9').fadeIn();
-    },function(){
-        $(".port8").css("opacity","1");
-        $(".text9").fadeOut();
-    });
-});
 
 $(document).ready(function(){
     $('.A1').click(function(){
@@ -85,8 +14,6 @@ $(document).ready(function(){
         $('.B3').toggle();
         $('.A3 img').toggle();
     });
-
-    // SAMPLE PORTFOLIO
 
     $('.C').hover(function(){
         $('.D').show();
@@ -200,3 +127,8 @@ $(document).ready(function(){
     });
 });
 
+function cllick(){
+    let username=document.getElementById("ll1").value;
+    let email=document.getElementById("ll2").value;
+     alert(username + " @" + email +": we have received your message. Thank you for reaching out to us. ");
+}
